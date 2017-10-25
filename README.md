@@ -7,7 +7,7 @@
 > * 依赖 https://github.com/yinheli/mahonia
 
 ## 2.使用
-> 请参照 HttpServer.go的代码来使用
-  
+> * 请参照 HttpServer.go的代码来使用
+> * 编译需要 go build  qqwrylib.go HttpServer.go 
 ## 3.注意
 > 线程安全，缓存操作。方便做服务器来查询。
