@@ -30,7 +30,6 @@ type Rq struct {
 	Msg     string `json:"ErrorMsg"`
 }
 
-var g_qqwry *QQwry
 
 func NewQQwry(file string) (qqwry *QQwry) {
 	qqwry = &QQwry{}
