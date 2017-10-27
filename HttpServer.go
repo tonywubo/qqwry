@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 )
-
+var g_qqwry *QQwry
 func handlerIP(w http.ResponseWriter, req *http.Request) {
 	k := req.FormValue("ip")
 	rq := g_qqwry.Find(k)
